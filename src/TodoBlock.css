@@ -1,0 +1,51 @@
+.app__todo__component{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    align-items: center;
+    margin: 10px;
+    min-width: 390px;
+  }
+  
+  .app__todo__component__label{
+  margin: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: cell;
+  background-color: inherit;
+  
+  
+  /* width: auto; */
+  
+  }
+  
+  .enabled{
+    cursor: default;
+    border: ""
+  }
+  
+  .disabled{
+    border: none;
+    pointer-events: none;
+    text-overflow: ellipsis;
+  }
+  
+  .icon{
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .todo {
+    background-color: rgb(230, 72, 61);
+  }
+
+  .done {
+    background-color: rgb(42, 165, 93);
+  }
+  
+  .app__todo__component__icons
+  {
+    color: white;
+  }
